@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'times', sans-serif;
     margin: 0;
 }
 /*----------------Estilos Base------------------*/
@@ -38,8 +38,9 @@ h1,h2,h3,h4,h5{
 .logo{
     font-size: 1.9em;
     color: #de423a;
-    padding: 10px;
-    font-family: 'Sacramento', cursive;
+    padding: 30px;
+    font-family: 'mistral', cursive;
+	color: red;
         
 }
 .main-header__contactInfo__phone{
@@ -87,7 +88,7 @@ h1,h2,h3,h4,h5{
 }
 
 .social-icon [class*="icon-"]{
-    color: black;
+    color: red;
     margin-left: 10px;
     display: flex;
     justify-content: center;
@@ -176,7 +177,7 @@ h1,h2,h3,h4,h5{
 
 /*----------------Estilos Principales------------------*/
 .group--color .container{
-	background-color: #DE423A;
+	background-color:red;
 	padding: 10px;
 	text-align: center;
 	
@@ -184,7 +185,7 @@ h1,h2,h3,h4,h5{
 .main__title{
 	margin: 15px 0;
 	font-size: 2.8em;
-	font-family: 'Sacramento',cursive;
+	font-family: 'mistral',cursive;
 	
 }
 .column__title{
@@ -199,14 +200,14 @@ h1,h2,h3,h4,h5{
 	text-align: center;
 	text-decoration: none;
 	width: 120px;
-	background: #DE423A;
+	background: blue;
 	color: #fff;
 	padding:10px;
 	margin: 10px auto;
 	
 }
 .group__title{
-	font-family:'Sacramento',cursive;
+	font-family:'Mael',cursive;
 	text-align: center;
 	font-weight: bold;
 	font-size: 1.8em;
@@ -231,7 +232,7 @@ h1,h2,h3,h4,h5{
 }
 .today-special__price{
 	font-size: 1.5em;
-	color: #DE423a;
+	color: red;
 	font-weight: bold;
 }
 
@@ -321,6 +322,8 @@ h1,h2,h3,h4,h5{
 	
 	
 }
+
+
 @media screen and (min-width:1024px){
 .container{
 		width: 1000px
